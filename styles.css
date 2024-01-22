@@ -5,9 +5,6 @@ body {
     background-color: #000;
 }
 
-h1 {
-    color: #fff;
-}
 .sidebar {
     position: fixed;
     top: 0;
@@ -37,6 +34,10 @@ h1 {
 .sidebar nav ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0px;
 }
 
 .sidebar nav ul li{
