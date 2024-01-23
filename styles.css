@@ -51,3 +51,23 @@ body {
     font-size: 14px;
     font-family: "DM Sans" , sans-serif;
 }
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 0 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 40px;
+    color: #b3b3b3;
+    font-weight: 100;
+    font-size: 14px;
+    flex-direction: column;
+
+}
+
+.library_link{
+
+    text-decoration: none;
+}
