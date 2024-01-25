@@ -71,29 +71,38 @@
 
         <main>
             <div class="main-container">
-                <nav class="header__navigation">
-                    <div class="navigation">
-                        <button class="arrow-left">
-                            <img src="src/assets/icons/small-left.png" alt="Setra esquerda">
-                        </button>
-                        <button class="arrow-right">
-                            <img src="src/assets/icons/small-right.png" alt="Setra direita">
-                        </button>
-                    </div>
+              <nav class="header__navigation">
+                <div class="navigation">
+                  <button class="arrow-left">
+                    <img src="./src/assets/icons/small-left.png" alt="" />
+                  </button>
+                  <button class="arrow-right">
+                    <img src="./src/assets/icons/small-right.png" alt="" />
+                  </button>
+                </div>
+                  <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="" />
+                    <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"placeholder="O que você quer ouvir?" value="" />
+                  </div>
+                
+        
+                <div class="header__login">
+                  <button class="subscribe">Inscreva-se</button>
+                  <button class="login">Entrar</button>
+                </div>
+              </nav>
 
-                        <div class="header__search">
-                            <img src="src/assets/icons/search.png" alt="">
-                            <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
-                        </div>
+              <div class="playlist-container">
+                <div id="result-playlists">
+                  <div class="playlist">
+                    <h1 id="greeting"></h1>
+                    <h2 class="session">Navegar por todas as seções</h2>
+                  </div> 
 
-                        <div class="header__login">
-                            <button class="subscribe">Increva-se</button>
-                            <button class="login">Entrar</button>
-                        </div>
-                </nav>
+                </div>
             </div>
         </main>
-
+        
         <footer class="disclaimer-premium">
             <div class="text">
               <p class="disclaimer-premium__title">Testar o Premium de graça</p>
