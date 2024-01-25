@@ -3,6 +3,7 @@
 
 body {
     background-color: #000;
+    font-family: vras(--font-dm-sans);
 }
 
 .sidebar {
@@ -49,7 +50,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans" , sans-serif;
 }
 
 .library {
@@ -78,7 +78,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans" , sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -113,7 +112,6 @@ body {
     display: flex;
     margin: 10px;
     flex-direction: column;
-    font-family: "DM Sans" , sans-serif;
 }
 
 .section-playlist__content{
@@ -138,7 +136,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans" , sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -185,7 +182,6 @@ body {
 }
 .disclaimer-premium .text {
    flex-shrink: 0;
-   font-family: "DM Sans" , sans-serif;
 }
 .disclaimer-premium .disclaimer-premium__title {
     color: #ffffff;
